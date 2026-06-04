@@ -1,0 +1,11 @@
+# GraphSAGE + attention-readout GNN over the knowledge graph.
+name: gnn
+hidden_dim: 128
+n_layers: 2
+dropout: 0.1
+sage_aggr: mean
+attention_heads: 4
+# VAE-only fields are ignored by the GNN but kept so the schema stays uniform.
+latent_dim: 64
+kl_weight: 0.001
+extra: {}

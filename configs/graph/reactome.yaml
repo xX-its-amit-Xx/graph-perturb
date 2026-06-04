@@ -1,0 +1,10 @@
+# Reactome pathway co-membership backend.
+name: reactome
+cache_dir: null
+undirected: true
+add_self_loops: true
+options:
+  # Restrict to a species (Reactome uses these prefixes for human).
+  species: "Homo sapiens"
+  # Connect two genes if they co-occur in at least this many pathways.
+  min_shared_pathways: 1

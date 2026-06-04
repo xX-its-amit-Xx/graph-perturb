@@ -1,0 +1,10 @@
+# Gene Ontology (biological process) backend.
+name: go_bp
+cache_dir: null
+undirected: true
+add_self_loops: true
+options:
+  # GO evidence codes to keep (experimental + high-confidence curated by default).
+  evidence_codes: [EXP, IDA, IPI, IMP, IGI, IEP, TAS, IC]
+  # Connect two genes if they share at least this many GO BP terms.
+  min_shared_terms: 1

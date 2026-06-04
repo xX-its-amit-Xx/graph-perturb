@@ -1,0 +1,9 @@
+# STRING protein-protein interaction backend (weighted by combined score).
+name: string
+cache_dir: null
+undirected: true
+add_self_loops: true
+options:
+  # STRING combined-score threshold in [0, 1000]; 700 == "high confidence".
+  score_threshold: 700
+  species: 9606  # NCBI taxon id for Homo sapiens

@@ -1,0 +1,8 @@
+# GEARS-format gene-relationship file adapter.
+name: gears
+cache_dir: null
+undirected: true
+add_self_loops: true
+options:
+  # Path to the GEARS gene-graph file (e.g. go_essential / gene2go pickle or csv).
+  path: null

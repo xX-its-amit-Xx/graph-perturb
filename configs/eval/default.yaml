@@ -1,0 +1,3 @@
+# Evaluation configuration.
+overlap_k: 20
+splits: [test_single, test_combo]

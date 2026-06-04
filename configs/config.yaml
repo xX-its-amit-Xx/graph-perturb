@@ -1,0 +1,18 @@
+# Top-level hydra composition for graph-perturb.
+#
+# Compose backends/models/etc. from the command line, e.g.:
+#   graph-perturb train graph=reactome model=vae train.epochs=5
+#
+# The keys here mirror graph_perturb.config.Config (and its nested dataclasses)
+# exactly so that the composed OmegaConf can be turned into a structured Config.
+defaults:
+  - graph: go
+  - model: gnn
+  - data: norman
+  - split: default
+  - train: default
+  - eval: default
+  - _self_
+
+output_dir: outputs
+experiment_name: default

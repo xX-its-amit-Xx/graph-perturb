@@ -1,0 +1,6 @@
+# Condition-level split: unseen single perturbations and unseen combinations
+# are held out into separate test sets.
+val_frac: 0.1
+test_single_frac: 0.2
+test_combo_frac: 0.3
+seed: 0

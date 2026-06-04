@@ -1,0 +1,8 @@
+# User-supplied edge list (CSV/TSV with two gene-symbol columns + optional weight).
+name: custom
+cache_dir: null
+undirected: true
+add_self_loops: true
+options:
+  # Path to the edge file; MUST be set (graph=custom graph.options.path=/abs/edges.csv).
+  path: null

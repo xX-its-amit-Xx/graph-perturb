@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Hydra / experiment outputs
+outputs/
+multirun/
+checkpoints/
+*.ckpt
+*.pt
+
+# Data & caches (can be large; default cache lives outside the repo)
+data/
+*.h5ad
+*.h5
+.graph_perturb_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

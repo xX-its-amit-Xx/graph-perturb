@@ -1,0 +1,11 @@
+# Conditional (CPA/scGen-style) VAE baseline; ignores graph topology.
+name: vae
+hidden_dim: 256
+n_layers: 2
+dropout: 0.1
+latent_dim: 64
+kl_weight: 0.001
+# GNN-only fields kept for a uniform schema; unused by the VAE.
+sage_aggr: mean
+attention_heads: 4
+extra: {}
